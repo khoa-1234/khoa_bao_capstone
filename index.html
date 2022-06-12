@@ -23,10 +23,6 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-
-    <!-- link css -->
-    <link rel="stylesheet" href="../css/style.css">
-
     <!-- ---Font Google--- -->
     <!-- Volkhov Font -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -292,55 +288,6 @@
             </div>
         </div>
     </section>
-
-
-    <!-- Jquery -->
-    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
-    <!-- BS4 -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
-        crossorigin="anonymous"></script>
-    <script>
-        $(window).on("scroll", function () {
-            var scroll = $(window).scrollTop();
-
-            if (scroll >= 80) {
-                $("#main-header").addClass("nav-fixed");
-            } else {
-                $("#main-header").removeClass("nav-fixed");
-            }
-        });
-    </script>
-    <!-- ------------------------------------------ -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.js"></script>
-    <script>
-        $('#owl-carousel').owlCarousel({
-            loop: false,
-            margin: 30,
-            dots: true,
-            nav: true,
-            items: 1,
-            rewind: true,
-            // autoplay:true,
-            autoplayTimeout: 2000,
-            autoplayHoverPause: true,
-        })
-    </script>
-
-    <script type="text/javascript">
-        var counter = 1;
-        setInterval(function () {
-            document.getElementById("radio" + counter).checked = true;
-            counter++;
-            if (counter > 3) {
-                counter = 1;
-            }
-        }, 5000);
-    </script>
-    <script src="./lib/main.js"></script>
-
-
     <section class="content">
         <section class="Service py-5" id="expect">
             <div class="container py-md-5 py-4 HomePageFWP">
@@ -378,7 +325,7 @@
 
                     <div
                         class="col-lg-5 offset-lg-1 offset-md-2 left-wthree-img mt-lg-0 mt-sm-5 mt-4 position-relative">
-                        <img src="../img/image.jpg" alt="" class="img-fluid radius-image">
+                        <img src="./images/image.jpg" alt="" class="img-fluid radius-image">
                         <div class="imginfo__box">
                             <h6 class="imginfo__title">
                                 36+</h6>
@@ -402,7 +349,7 @@
                     <a href="#url" class="d-flex feature-unit">
                         <div class="col-3">
                             <div class="features15-info">
-                                <img class="img-fluid" src="../img/img5.png" alt=" ">
+                                <img class="img-fluid" src="./img/img5.png" alt=" ">
                             </div>
                         </div>
                         <div class="col-9">
@@ -418,7 +365,7 @@
                     <a href="#url" class="d-flex feature-unit">
                         <div class="col-3">
                             <div class="features15-info">
-                                <img class="img-fluid" src="../img/img6.png" alt=" ">
+                                <img class="img-fluid" src="./img/img6.png" alt=" ">
                             </div>
                         </div>
                         <div class="col-9">
@@ -434,7 +381,7 @@
                     <a href="#url" class="d-flex feature-unit">
                         <div class="col-3">
                             <div class="features15-info">
-                                <img class="img-fluid" src="../img/img7.png" alt=" ">
+                                <img class="img-fluid" src="./img/img7.png" alt=" ">
                             </div>
                         </div>
                         <div class="col-9">
@@ -450,7 +397,7 @@
                     <a href="#url" class="d-flex feature-unit">
                         <div class="col-3">
                             <div class="features15-info">
-                                <img class="img-fluid" src="../img/img8.png" alt=" ">
+                                <img class="img-fluid" src="./img/img8.png" alt=" ">
                             </div>
                         </div>
                         <div class="col-9">
@@ -467,7 +414,7 @@
                     <a href="#url" class="d-flex feature-unit">
                         <div class="col-3">
                             <div class="features15-info">
-                                <img class="img-fluid" src="../img/img9.png" alt=" ">
+                                <img class="img-fluid" src="./img/img9.png" alt=" ">
                             </div>
                         </div>
                         <div class="col-9">
@@ -483,7 +430,7 @@
                     <a href="#url" class="d-flex feature-unit">
                         <div class="col-3">
                             <div class="features15-info">
-                                <img class="img-fluid" src="../img/img10.png" alt=" ">
+                                <img class="img-fluid" src="./img/img10.png" alt=" ">
                             </div>
                         </div>
                         <div class="col-9">
@@ -517,9 +464,9 @@
 
                     <div class="col-lg-3 col-6 gallery-img-grid hover14 column">
                         <div class="gallery_effect">
-                            <a href="../img/g2.jpg" class="js-img-viwer d-block">
+                            <a href="./img/g2.jpg" class="js-img-viwer d-block">
                                 <figure>
-                                    <img src="../img/g2.jpg" alt=" " class="img-fluid" />
+                                    <img src="./img/g2.jpg" alt=" " class="img-fluid" />
                                     <h5 class="gall-text">
                                         Fresh Carrots</h5>
                                 </figure>
@@ -529,9 +476,9 @@
 
                     <div class="col-lg-3 col-6 gallery-img-grid hover14 column">
                         <div class="gallery_effect">
-                            <a href="../img/g3.jpg" class="js-img-viwer d-block">
+                            <a href="./img/g3.jpg" class="js-img-viwer d-block">
                                 <figure>
-                                    <img src="../img/g3.jpg" alt=" " class="img-fluid" />
+                                    <img src="./img/g3.jpg" alt=" " class="img-fluid" />
                                     <h5 class="gall-text">
                                         Strawberry</h5>
                                 </figure>
@@ -541,7 +488,7 @@
 
                     <div class="col-lg-3 col-6 gallery-img-grid hover14 column">
                         <div class="gallery_effect">
-                            <a href="../img/g6.jpg" class="js-img-viwer d-block">
+                            <a href="./img/g6.jpg" class="js-img-viwer d-block">
                                 <figure>
                                     <img src="../img/g6.jpg" alt=" " class="img-fluid" />
                                     <h5 class="gall-text">
@@ -553,9 +500,9 @@
 
                     <div class="col-lg-3 col-6 gallery-img-grid hover14 column">
                         <div class="gallery_effect">
-                            <a href="../img/g5.jpg" class="js-img-viwer d-block">
+                            <a href="./img/g5.jpg" class="js-img-viwer d-block">
                                 <figure>
-                                    <img src="../img/g5.jpg" alt=" " class="img-fluid" />
+                                    <img src="./img/g5.jpg" alt=" " class="img-fluid" />
                                     <h5 class="gall-text">
                                         Fresh Apples</h5>
                                 </figure>
@@ -565,9 +512,9 @@
 
                     <div class="col-lg-3 col-6 gallery-img-grid hover14 column">
                         <div class="gallery_effect">
-                            <a href="../img/g1.jpg" class="js-img-viwer d-block">
+                            <a href="./img/g1.jpg" class="js-img-viwer d-block">
                                 <figure>
-                                    <img src="../img/g1.jpg" alt=" " class="img-fluid" />
+                                    <img src="./img/g1.jpg" alt=" " class="img-fluid" />
                                     <h5 class="gall-text">
                                         Awesome Fields</h5>
                                 </figure>
@@ -577,9 +524,9 @@
 
                     <div class="col-lg-3 col-6 gallery-img-grid hover14 column">
                         <div class="gallery_effect">
-                            <a href="../img/g7.jpg" class="js-img-viwer d-block">
+                            <a href="./img/g7.jpg" class="js-img-viwer d-block">
                                 <figure>
-                                    <img src="../img/g7.jpg" alt=" " class="img-fluid" />
+                                    <img src="./img/g7.jpg" alt=" " class="img-fluid" />
                                     <h5 class="gall-text">
                                         Fresh Grapes</h5>
                                 </figure>
@@ -589,9 +536,9 @@
 
                     <div class="col-lg-3 col-6 gallery-img-grid hover14 column">
                         <div class="gallery_effect">
-                            <a href="../img/g8.jpg" class="js-img-viwer d-block">
+                            <a href="./img/g8.jpg" class="js-img-viwer d-block">
                                 <figure>
-                                    <img src="../img/g8.jpg" alt=" " class="img-fluid" />
+                                    <img src="./img/g8.jpg" alt=" " class="img-fluid" />
                                     <h5 class="gall-text">
                                         Hot Papper</h5>
                                 </figure>
@@ -609,7 +556,7 @@
         <section class="w3l-clients-1 py-5" id="testimonials">
             <style>
                 .w3l-clients-1 {
-                    background: url(../img/bg1.jpg);
+                    background: url(./img/bg1.jpg);
                 }
             </style>
             <div class="cusrtomer-layout py-lg-5">
@@ -621,7 +568,7 @@
                                     <div class="row testimonial align-items-center">
                                         <div class="col-md-3 testi-des">
                                             <a href="#url" class="testi-img">
-                                                <img src="https://wp.w3layouts.com/farmstead/wp-content/themes/farmstead/assets/images/testi1.jpg"
+                                                <img src="./images/testi1.jpg"
                                                     alt="" class="radius-image img-fluid">
                                             </a>
                                             <div class="peopl align-self">
@@ -653,7 +600,7 @@
                                     <div class="row testimonial align-items-center">
                                         <div class="col-md-3 testi-des">
                                             <a href="#url" class="testi-img">
-                                                <img src="https://wp.w3layouts.com/farmstead/wp-content/themes/farmstead/assets/images/testi2.jpg"
+                                                <img src="./images/testi2.jpg"
                                                     alt="" class="radius-image img-fluid">
                                             </a>
                                             <div class="peopl align-self">
@@ -685,7 +632,7 @@
                                     <div class="row testimonial align-items-center">
                                         <div class="col-md-3 testi-des">
                                             <a href="#url" class="testi-img">
-                                                <img src="https://wp.w3layouts.com/farmstead/wp-content/themes/farmstead/assets/images/testi3.jpg"
+                                                <img src="./images/testi3.jpg"
                                                     alt="" class="radius-image img-fluid">
                                             </a>
                                             <div class="peopl align-self">
@@ -733,7 +680,7 @@
                         <div class="col-lg-4 order-lg-1 order-3 mt-lg-0 mt-5">
 
                             <h4 class="FooterLogo">
-                                <a class="logo" href="https://wp.w3layouts.com/farmstead/">Farmstead<i
+                                <a class="logo" href="#">Farmstead<i
                                         class="fa fa-leaf" aria-hidden="true"></i></a>
                             </h4>
                             <p class="mt-4">Duis imperdiet sapien tortor, vitae congue diam auctor vitae. Aliquam
@@ -742,7 +689,7 @@
 
                             <!-- copyright -->
                             <p class="copy-text mt-5 CopyRights">&copy; 2022 Farmstead. All Rights Reserved |
-                                WordPress Theme by <a href="https://w3layouts.com/">W3Layouts. </a>
+                                WordPress Theme by <a href="#">W3Layouts. </a>
                             </p>
                             <!-- //copyright -->
 
@@ -780,11 +727,11 @@
 
                             <ul class=" d-flex social mt-4 pt-2 FooterSocial">
 
-                                <li class="p-2"><a href="https://www.facebook.com/w3layouts/"><i
+                                <li class="p-2"><a href="#"><i
                                             class="fa-brands fa-facebook-f"></i></span></a>
                                 </li>
 
-                                <li class="p-2"><a href="https://in.linkedin.com/company/w3layouts"><i
+                                <li class="p-2"><a href="#"><i
                                             class="fa-brands fa-linkedin-in"></i></span></a>
                                 </li>
 
@@ -814,6 +761,19 @@
         </button>
 
     </footer>
+
+    <script>
+        $(window).on("scroll", function () {
+            var scroll = $(window).scrollTop();
+
+            if (scroll >= 80) {
+                $("#main-header").addClass("nav-fixed");
+            } else {
+                $("#main-header").removeClass("nav-fixed");
+            }
+        });
+    </script>
+    <!-- ------------------------------------------ -->
     <!-- Optional JavaScript -->
     <!-- slicklider -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
@@ -829,6 +789,35 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.js"></script>
+    <script>
+        $('#owl-carousel').owlCarousel({
+            loop: false,
+            margin: 30,
+            dots: true,
+            nav: true,
+            items: 1,
+            rewind: true,
+            // autoplay:true,
+            autoplayTimeout: 2000,
+            autoplayHoverPause: true,
+        })
+    </script>
+
+    <script type="text/javascript">
+        var counter = 1;
+        setInterval(function () {
+            document.getElementById("radio" + counter).checked = true;
+            counter++;
+            if (counter > 3) {
+                counter = 1;
+            }
+        }, 5000);
+    </script>
+
+
+
 
     <script src="./js/owl.carousel.min.js"></script>
 
