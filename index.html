@@ -1,0 +1,884 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;300;400;600;700;900&display=swap"
+        rel="stylesheet">
+    <!-- owlcarousel -->
+    <link rel="stylesheet" href="./css/owl.carousel.min.css">
+    <link rel="stylesheet" href="./css/owl.theme.default.min.css">
+
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <!-- link css -->
+    <link rel="stylesheet" href="../css/style.css">
+
+    <!-- ---Font Google--- -->
+    <!-- Volkhov Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Volkhov:wght@400;700&display=swap" rel="stylesheet" />
+    <!-- Source Sans Pro Font-->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;300;400;600;700;900&display=swap"
+        rel="stylesheet">
+
+    <!-- Style -->
+    <link rel="stylesheet" href="./css/responsive.css">
+    <!-- <link rel="stylesheet" href="./css/themedark.css"> -->
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/style1.css">
+
+
+</head>
+
+<body>
+    <header id="main-header" class="fixed-top site-header">
+        <div class="logo container">
+            <nav class="navbar">
+                <!-- SITE -->
+                <h1 class="text">
+                    <a class="navbar-brand d-flex align-items-center" href="#">
+                        <span>Farmstead</span>
+                        <i class="fa fa-leaf" aria-hidden="true"></i>
+                    </a>
+                </h1>
+
+                <div class="navbar ml-lg-auto">
+                    <!-- SEARCH -->
+                    <div class="search-right ml-md-3">
+                        <form>
+                            <input type="search" name="" placeholder="">
+                        </form>
+                    </div>
+
+                    <!-- LIGHT AND DARK -->
+                    <!-- <div class="cont-ser-position mr-3 DarkandLight">
+                        <nav class="navigation">
+                            <div class="theme-switch-wrapper">
+                                <a href="javascript:;" class="card_toggle">
+                                    <i class="las la-moon"></i>
+                                    <i class="las la-sun"></i>
+                                </a>
+                            </div>
+                        </nav>
+                    </div> -->
+                    <!-- <button class="btn" id="switchButton">
+                        <i class="las la-moon"></i>
+                        <i class="las la-sun"></i>
+                    </button> -->
+                    <div class="switchmode">
+                        <div class="switchmode-wrapper">
+                            <div class="mode-container">
+                                <button type="button" class="theme-icon" onclick="myFunction()">
+                                    <i id="icon" class="sun" aria-hiden="true"></i>
+                                    <i id="icon" class="moon" aria-hidden="true"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- MENU -->
+                <button class="navbar-toggler" id="toggler" style="margin-bottom: 10px; padding-left: 0px;"
+                    type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                    <span class="navbar-toggler-icon fa fa-bars"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="collapsibleNavbar"
+                    style="margin-left: 40rem; margin-right: 20px; padding-left: 160px;">
+                    <ul class="navbar-nav" id="submenu">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#">HOME</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">ABOUT</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">SERVICE</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">BLOG POSTS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">LANDING PAGE</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">ELEMENT PAGE</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">404 PAGE</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">CONTACT</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+        </nav>
+        </div>
+    </header>
+    <!-- ----------CAROUSEL---------- -->
+    <section id="carousel" class="carousel">
+        <div class="container-fluid">
+            <div class="row d-flex align-items-center">
+                <div class="col-md-5 left">
+                    <div class="homepage">
+                        <div class="banner-left">
+                            <h2 id="farm" class="farm-text">FARM</h2>
+                            <div class="content">
+                                <h3 id="farm-title" class="farm-title mb-sm-4 mb-2">
+                                    Welcome to Farmstead <br> where Natural Food is born!
+                                </h3>
+                                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+                                    accusantium doloremque laudantium.</p>
+                                <button class="btn btn-style mt-sm-5 mt-4" href="">LEARN MORE</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-7 p-0 ml-auto right">
+                    <div class="banner-right">
+                        <div class="image">
+                            <input type="radio" class="radio" name="slider" id="radio1" />
+                            <input type="radio" class="radio" name="slider" id="radio2" />
+                            <input type="radio" class="radio" name="slider" id="radio3" />
+                            <div id="owl-carousel" class="owl-carousel owl-theme image-inner">
+                                <div class="image-slide first">
+                                    <div class="banner1">
+                                        <div class="wrapper">
+                                            <h4>01<span>/03</span></h4>
+                                            <p>Argriculture</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="image-slide">
+                                    <div class="banner2">
+                                        <div class="wrapper">
+                                            <h4>02<span>/03</span></h4>
+                                            <p>Farm Field</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="image-slide">
+                                    <div class="banner3">
+                                        <div class="wrapper">
+                                            <h4>03<span>/03</span></h4>
+                                            <p>Organic Farm</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ----------GROW---------- -->
+    <section id="grow">
+        <div class="container">
+            <div class="row align-item-center">
+                <div class="grow-title col-sm-12 col-md-12 col-lg-6">
+                    <p>Grow Naturally</p>
+                    <h2 id="title">Leaders in the field</h2>
+                    <p>Aurabitur id gravida risus. Fusce eget ex fermentum, ultricies
+                        nisi ac sed, lacinia est. Quisque ut lectus consequat, venenatis
+                        eros et, sed commodo risus. Nullam sit amet laoreet elit.
+                        Suspendisse non init magnaa velit efficitur, dolor eget ex
+                        fermentum.</p>
+                    <button class="btn m-4"><a href="#">DISCOVER
+                            MORE</a></button>
+                </div>
+                <div class="grow-list col-lg-6">
+                    <div class="grow-item">
+                        <img src="./images/img4.png">
+                        <a id="title" href="#">Natural
+                            Products</a>
+                    </div>
+                    <div class="grow-item">
+                        <img src="./images/img2.png">
+                        <a id="title" href="#">Wheat
+                            Cultivation</a>
+                    </div>
+                    <div class="grow-item">
+                        <img src="./images/img1.png">
+                        <a id="title" href="#">Modern
+                            Truck</a>
+                    </div>
+                    <div class="grow-item">
+                        <img src="./images/img3.png">
+                        <a id="title" href="#">Organic
+                            Products</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CHOOSE -->
+    <section id="service">
+        <div class="container">
+            <div class="service-content">
+                <div class="service-title">
+                    <div class="row align-item-center">
+                        <div class="col-12 col-md-6 col-lg-6">
+                            <p id="title">What we do</p>
+                            <h1 id="title title-site">Why Choose Our Fresh Organic Foods</h1>
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-6">
+                            <p id="textP-White">Sed ut perspiciatis unde omnis iste natus
+                                error sit
+                                accusantium doloremque, eaque ipsa quae ab illo
+                                inventore. Sed ut perspiciatis unde omnis iste natus error
+                                sit.</p>
+                        </div>
+                    </div>
+                </div>
+                <h2 id="background-text" class="title-bg">Service</h2>
+            </div>
+            <div class="service-list row justify-content-center">
+                <div class="service-item col-lg-4 col-sm-12 col-md-6 mt-4">
+                    <div id="card" class="card">
+                        <img src="./images/service1.jpg">
+                        <div class="card-body">
+                            <p class="btn">Natural</p>
+                            <br>
+                            <a href="#" id="title-card" class="card-title">Agriculture Products</a>
+                            <p>Sed ut perspiciatis unde omnis iste natus sit accusantium
+                                doloremque laudantium, totam rem aperiam</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="service-item col-lg-4 col-sm-12 col-md-6 mt-4">
+                    <div id="card" class="card">
+                        <img src="./images/service2.jpg">
+                        <div class="card-body">
+                            <p class="btn">Agriculture</p>
+                            <br>
+                            <a href="#" id="title-card" class="card-title">Fresh Vegetables</a>
+                            <p>Sed ut perspiciatis unde omnis iste natus sit accusantium
+                                doloremque laudantium, totam rem aperiam</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="service-item col-lg-4 col-sm-12 col-md-6 mt-4">
+                    <div id="card" class="card">
+                        <img src="./images/service3.jpg">
+                        <div class="card-body">
+                            <p class="btn">Farm</p>
+                            <br>
+                            <a href="#" id="title-card" class="card-title">Organic Products</a>
+                            <p>Sed ut perspiciatis unde omnis iste natus sit accusantium
+                                doloremque laudantium, totam rem aperiam</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Jquery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <!-- BS4 -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
+        crossorigin="anonymous"></script>
+    <script>
+        $(window).on("scroll", function () {
+            var scroll = $(window).scrollTop();
+
+            if (scroll >= 80) {
+                $("#main-header").addClass("nav-fixed");
+            } else {
+                $("#main-header").removeClass("nav-fixed");
+            }
+        });
+    </script>
+    <!-- ------------------------------------------ -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.js"></script>
+    <script>
+        $('#owl-carousel').owlCarousel({
+            loop: false,
+            margin: 30,
+            dots: true,
+            nav: true,
+            items: 1,
+            rewind: true,
+            // autoplay:true,
+            autoplayTimeout: 2000,
+            autoplayHoverPause: true,
+        })
+    </script>
+
+    <script type="text/javascript">
+        var counter = 1;
+        setInterval(function () {
+            document.getElementById("radio" + counter).checked = true;
+            counter++;
+            if (counter > 3) {
+                counter = 1;
+            }
+        }, 5000);
+    </script>
+    <script src="./lib/main.js"></script>
+
+
+    <section class="content">
+        <section class="Service py-5" id="expect">
+            <div class="container py-md-5 py-4 HomePageFWP">
+                <div class="row">
+                    <div class="col-lg-6 about-right-faq align-self">
+                        <h5 class="small-title">Why choose us </h5>
+                        <h3 class="title-style">
+                            Quality food is the most important thing in our life </h3>
+                        <p class="mt-3">Lorem ipsum viverra feugiat. Pellen tesque libero ut justo,
+                            ultrices in ligula. Semper at tempufddfel. Lorem ipsum dolor sit amet consectetur
+                            adipisicing
+                            elit. Non quae, fugiat.</p>
+
+                        <div class="row two-grids mt-sm-5 mt-4 pt-lg-4">
+
+                            <div class="col-sm-6 grids_info d-flex">
+                                <i class="fa-solid fa-users"></i>
+                                <div class="detail ml-2">
+                                    <h4>Qualified Staff</h4>
+                                    <p>Sed ut perspiciatis unde omnis iste natus error sit. </p>
+                                </div>
+                            </div>
+
+                            <div class="col-sm-6 grids_info d-flex mt-sm-0 mt-4">
+                                <span class="fa fa-life-ring"></span>
+                                <div class="detail ml-2">
+                                    <h4>Excellent Service</h4>
+                                    <p>Sed ut perspiciatis unde omnis iste natus error sit. </p>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <div
+                        class="col-lg-5 offset-lg-1 offset-md-2 left-wthree-img mt-lg-0 mt-sm-5 mt-4 position-relative">
+                        <img src="../img/image.jpg" alt="" class="img-fluid radius-image">
+                        <div class="imginfo__box">
+                            <h6 class="imginfo__title">
+                                36+</h6>
+                            <p>
+                                Years of experience </p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+    </section>
+
+
+    <div class="w3l-index-block4">
+        <div class="container HomePageServices">
+
+            <div class="row justify-content-center">
+
+                <div class="col-lg-4 col-md-6 features15-col-text">
+                    <a href="#url" class="d-flex feature-unit">
+                        <div class="col-3">
+                            <div class="features15-info">
+                                <img class="img-fluid" src="../img/img5.png" alt=" ">
+                            </div>
+                        </div>
+                        <div class="col-9">
+                            <div class="features15-para">
+                                <h4>Agriculture</h4>
+                                <p>Ras effic itur metusga via suscipit consectetur adipisicing unde omnis. </p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="col-lg-4 col-md-6 features15-col-text">
+                    <a href="#url" class="d-flex feature-unit">
+                        <div class="col-3">
+                            <div class="features15-info">
+                                <img class="img-fluid" src="../img/img6.png" alt=" ">
+                            </div>
+                        </div>
+                        <div class="col-9">
+                            <div class="features15-para">
+                                <h4>Fresh</h4>
+                                <p>Ras effic itur metusga via suscipit consectetur adipisicing unde omnis. </p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="col-lg-4 col-md-6 features15-col-text">
+                    <a href="#url" class="d-flex feature-unit">
+                        <div class="col-3">
+                            <div class="features15-info">
+                                <img class="img-fluid" src="../img/img7.png" alt=" ">
+                            </div>
+                        </div>
+                        <div class="col-9">
+                            <div class="features15-para">
+                                <h4>Natural</h4>
+                                <p>Ras effic itur metusga via suscipit consectetur adipisicing unde omnis. </p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="col-lg-4 col-md-6 features15-col-text">
+                    <a href="#url" class="d-flex feature-unit">
+                        <div class="col-3">
+                            <div class="features15-info">
+                                <img class="img-fluid" src="../img/img8.png" alt=" ">
+                            </div>
+                        </div>
+                        <div class="col-9">
+                            <div class="features15-para">
+                                <h4>Farm</h4>
+                                <p>Ras effic itur metusga via suscipit consectetur adipisicing unde omnis. </p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+
+                <div class="col-lg-4 col-md-6 features15-col-text">
+                    <a href="#url" class="d-flex feature-unit">
+                        <div class="col-3">
+                            <div class="features15-info">
+                                <img class="img-fluid" src="../img/img9.png" alt=" ">
+                            </div>
+                        </div>
+                        <div class="col-9">
+                            <div class="features15-para">
+                                <h4>Organic</h4>
+                                <p>Ras effic itur metusga via suscipit consectetur adipisicing unde omnis. </p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="col-lg-4 col-md-6 features15-col-text">
+                    <a href="#url" class="d-flex feature-unit">
+                        <div class="col-3">
+                            <div class="features15-info">
+                                <img class="img-fluid" src="../img/img10.png" alt=" ">
+                            </div>
+                        </div>
+                        <div class="col-9">
+                            <div class="features15-para">
+                                <h4>Dairy</h4>
+                                <p>Ras effic itur metusga via suscipit consectetur adipisicing unde omnis. </p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+    <section>
+        <div class="gallery section-agile py-5">
+            <div class="container py-md-5 py-4 HomePageGallery">
+                <div class="row gallery_grids no-gutters">
+
+                    <div class="col-lg-3 col-6 gallery-img-grid gallery_grid1 hover14 column">
+                        <div class="gallery_effect mt-sm-2">
+                            <h5 class="small-title">
+                                Gallery</h5>
+                            <h3 class="title-style title">
+                                Our Products</h3>
+                            <p class="mt-2">Lorem ipsum viverra feugiat. Pellen tesque libero ut justo.</p>
+                            <a href="#url" class="btn btn-primary btn-style mt-4">Discover More</a>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-6 gallery-img-grid hover14 column">
+                        <div class="gallery_effect">
+                            <a href="../img/g2.jpg" class="js-img-viwer d-block">
+                                <figure>
+                                    <img src="../img/g2.jpg" alt=" " class="img-fluid" />
+                                    <h5 class="gall-text">
+                                        Fresh Carrots</h5>
+                                </figure>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-6 gallery-img-grid hover14 column">
+                        <div class="gallery_effect">
+                            <a href="../img/g3.jpg" class="js-img-viwer d-block">
+                                <figure>
+                                    <img src="../img/g3.jpg" alt=" " class="img-fluid" />
+                                    <h5 class="gall-text">
+                                        Strawberry</h5>
+                                </figure>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-6 gallery-img-grid hover14 column">
+                        <div class="gallery_effect">
+                            <a href="../img/g6.jpg" class="js-img-viwer d-block">
+                                <figure>
+                                    <img src="../img/g6.jpg" alt=" " class="img-fluid" />
+                                    <h5 class="gall-text">
+                                        Our Farm</h5>
+                                </figure>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-6 gallery-img-grid hover14 column">
+                        <div class="gallery_effect">
+                            <a href="../img/g5.jpg" class="js-img-viwer d-block">
+                                <figure>
+                                    <img src="../img/g5.jpg" alt=" " class="img-fluid" />
+                                    <h5 class="gall-text">
+                                        Fresh Apples</h5>
+                                </figure>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-6 gallery-img-grid hover14 column">
+                        <div class="gallery_effect">
+                            <a href="../img/g1.jpg" class="js-img-viwer d-block">
+                                <figure>
+                                    <img src="../img/g1.jpg" alt=" " class="img-fluid" />
+                                    <h5 class="gall-text">
+                                        Awesome Fields</h5>
+                                </figure>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-6 gallery-img-grid hover14 column">
+                        <div class="gallery_effect">
+                            <a href="../img/g7.jpg" class="js-img-viwer d-block">
+                                <figure>
+                                    <img src="../img/g7.jpg" alt=" " class="img-fluid" />
+                                    <h5 class="gall-text">
+                                        Fresh Grapes</h5>
+                                </figure>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-6 gallery-img-grid hover14 column">
+                        <div class="gallery_effect">
+                            <a href="../img/g8.jpg" class="js-img-viwer d-block">
+                                <figure>
+                                    <img src="../img/g8.jpg" alt=" " class="img-fluid" />
+                                    <h5 class="gall-text">
+                                        Hot Papper</h5>
+                                </figure>
+                            </a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <div class="clients">
+        <section class="w3l-clients-1 py-5" id="testimonials">
+            <style>
+                .w3l-clients-1 {
+                    background: url(../img/bg1.jpg);
+                }
+            </style>
+            <div class="cusrtomer-layout py-lg-5">
+                <div class="container py-md-5 py-4 HomePageTestimonials">
+                    <div class="testimonial-row">
+                        <div id="owl-demo2" class="owl-two owl-carousel owl-theme mb-md-3 mb-sm-5 mb-4">
+                            <div class="item">
+                                <div class="testimonial-content">
+                                    <div class="row testimonial align-items-center">
+                                        <div class="col-md-3 testi-des">
+                                            <a href="#url" class="testi-img">
+                                                <img src="https://wp.w3layouts.com/farmstead/wp-content/themes/farmstead/assets/images/testi1.jpg"
+                                                    alt="" class="radius-image img-fluid">
+                                            </a>
+                                            <div class="peopl align-self">
+                                                <h3>
+                                                    Dennis wilson </h3>
+                                                <p class="identity">
+                                                    Customer </p>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-9 pl-lg-5 mt-md-0 mt-4 text-md-left text-center">
+                                            <span class="fa fa-quote-left"></span>
+                                            <blockquote>
+                                                <q>Lorem ipsum dolor sit amet int consectetur adipisicing elit. Velita
+                                                    beatae
+                                                    laudantium Quas minima sunt natus tempore, maiores aliquid modi
+                                                    felis
+                                                    sequi optio lacinia id ipsum non velit, culpa.
+                                                    voluptate rem ullam dolore nisi est quasi, doloribus tempora.
+                                                    est elit. Non quae, fugiat ad libero justo sed amet.</q>
+                                            </blockquote>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <div class="item">
+                                <div class="testimonial-content">
+                                    <div class="row testimonial align-items-center">
+                                        <div class="col-md-3 testi-des">
+                                            <a href="#url" class="testi-img">
+                                                <img src="https://wp.w3layouts.com/farmstead/wp-content/themes/farmstead/assets/images/testi2.jpg"
+                                                    alt="" class="radius-image img-fluid">
+                                            </a>
+                                            <div class="peopl align-self">
+                                                <h3>
+                                                    Dennis wilson </h3>
+                                                <p class="identity">
+                                                    Customer </p>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-9 pl-lg-5 mt-md-0 mt-4 text-md-left text-center">
+                                            <span class="fa fa-quote-left"></span>
+                                            <blockquote>
+                                                <q>Lorem ipsum dolor sit amet int consectetur adipisicing elit. Velita
+                                                    beatae
+                                                    laudantium Quas minima sunt natus tempore, maiores aliquid modi
+                                                    felis
+                                                    sequi optio lacinia id ipsum non velit, culpa.
+                                                    voluptate rem ullam dolore nisi est quasi, doloribus tempora.
+                                                    est elit. Non quae, fugiat ad libero justo sed amet.</q>
+                                            </blockquote>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <div class="item">
+                                <div class="testimonial-content">
+                                    <div class="row testimonial align-items-center">
+                                        <div class="col-md-3 testi-des">
+                                            <a href="#url" class="testi-img">
+                                                <img src="https://wp.w3layouts.com/farmstead/wp-content/themes/farmstead/assets/images/testi3.jpg"
+                                                    alt="" class="radius-image img-fluid">
+                                            </a>
+                                            <div class="peopl align-self">
+                                                <h3>
+                                                    Dennis wilson </h3>
+                                                <p class="identity">
+                                                    Customer </p>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-9 pl-lg-5 mt-md-0 mt-4 text-md-left text-center">
+                                            <span class="fa fa-quote-left"></span>
+                                            <blockquote>
+                                                <q>Lorem ipsum dolor sit amet int consectetur adipisicing elit. Velita
+                                                    beatae
+                                                    laudantium Quas minima sunt natus tempore, maiores aliquid modi
+                                                    felis
+                                                    sequi optio lacinia id ipsum non velit, culpa.
+                                                    voluptate rem ullam dolore nisi est quasi, doloribus tempora.
+                                                    est elit. Non quae, fugiat ad libero justo sed amet.</q>
+                                            </blockquote>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+
+    <section>
+    </section>
+
+    <!-- footer -->
+    <footer>
+
+        <section class="w3l-footer-16">
+            <div class="w3l-footer-16-main py-5">
+                <div class="container py-4">
+                    <div class="row footer-p">
+
+                        <div class="col-lg-4 order-lg-1 order-3 mt-lg-0 mt-5">
+
+                            <h4 class="FooterLogo">
+                                <a class="logo" href="https://wp.w3layouts.com/farmstead/">Farmstead<i
+                                        class="fa fa-leaf" aria-hidden="true"></i></a>
+                            </h4>
+                            <p class="mt-4">Duis imperdiet sapien tortor, vitae congue diam auctor vitae. Aliquam
+                                eget turpis ornare, euismod ligul aeget, enenatis dui. </p>
+
+
+                            <!-- copyright -->
+                            <p class="copy-text mt-5 CopyRights">&copy; 2022 Farmstead. All Rights Reserved |
+                                WordPress Theme by <a href="https://w3layouts.com/">W3Layouts. </a>
+                            </p>
+                            <!-- //copyright -->
+
+                        </div>
+
+                        <div class="col-lg-4 pl-lg-5 FooterContact">
+                            <h3>Find Us</h3>
+                            <div class="column-2">
+
+                                <p>Address: 10001 Alleghany st, 5th Avenue, 235 Terry, London.</p>
+
+                                <p class="mt-3">Phone: <a href="tel:+12 23456790">+12 23456790</a>
+                                </p>
+
+                                <p class="mt-3"> Email: <a href="mailto:info@example.com">info@example.com</a>
+                                </p>
+
+                                <p class="mt-3">Fax: <a href="tel:+11 367 21890">+ 11 367 21890</a>
+                                </p>
+
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 col-md-7 order-lg-3 order-1 column mt-lg-0 mt-5">
+
+                            <h3>Newsletter</h3>
+                            <div class="end-column FooterSubscribe">
+                                <p>Subscribe to our mailing list and get updates to your email inbox.</p>
+                                <form action="" class="subscribe d-flex mt-3" method="post">
+                                    <input type="email" name="Email" placeholder="Email Address" required="">
+                                    <button><span class="fa fa-paper-plane" aria-hidden="true"></span></button>
+                                </form>
+                            </div>
+
+
+                            <ul class=" d-flex social mt-4 pt-2 FooterSocial">
+
+                                <li class="p-2"><a href="https://www.facebook.com/w3layouts/"><i
+                                            class="fa-brands fa-facebook-f"></i></span></a>
+                                </li>
+
+                                <li class="p-2"><a href="https://in.linkedin.com/company/w3layouts"><i
+                                            class="fa-brands fa-linkedin-in"></i></span></a>
+                                </li>
+
+                                <li class="p-2"><a href="https://twitter.com/W3layouts"><i
+                                            class="fa-brands fa-twitter"></i></span></a>
+                                </li>
+
+                                <li class="p-2"><a href="https://w3layouts.com/tag/email-templates/"><i
+                                            class="fa-brands fa-google-plus"></i></span></a>
+                                </li>
+
+                                <li class="p-2"><a href="https://w3layouts.com/"><i class="fa-brands fa-github"></i></a>
+                                </li>
+
+                            </ul>
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- move top -->
+        <button onclick="topFunction()" id="movetop" title="Go to top" class="cd-top text-replace js-cd-top">
+            <span class="fa fa-level-up" aria-hidden="true"></span>
+        </button>
+
+    </footer>
+    <!-- Optional JavaScript -->
+    <!-- slicklider -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+        integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+
+    <script src="./js/owl.carousel.min.js"></script>
+
+
+    <script>
+        $(document).ready(function () {
+            $("#owl-demo2").owlCarousel({
+                loop: true,
+                margin: 20,
+                nav: false,
+                responsiveClass: true,
+                autoplay: false,
+                autoplayTimeout: 5000,
+                autoplaySpeed: 1000,
+                autoplayHoverPause: false,
+                responsive: {
+                    0: {
+                        items: 1,
+                        nav: false
+                    },
+                    1000: {
+                        items: 1,
+                        nav: false,
+                        loop: false
+                    }
+                }
+            })
+        })
+    </script>
+    <script src="../js/main.js"></script>
+    <script src="../js/util.js"></script>
+    <script>
+        //Get the button
+        var mybutton = document.getElementById("movetop");
+
+        // When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function () { scrollFunction() };
+
+        function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                mybutton.style.display = "block";
+            } else {
+                mybutton.style.display = "none";
+            }
+        }
+
+    </script>
+
+
+
+</body>
+
+</html>
