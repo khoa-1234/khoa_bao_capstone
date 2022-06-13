@@ -149,6 +149,7 @@ header {
     left: 0;
     right: 0;
     z-index: 1;
+    
 }
 
 #main-header {
@@ -280,8 +281,11 @@ a.navbar-brand:hover {
     margin-left: 20px;
     color: #ffffff;
 }
-.sun:hover,.moon:hover, .mode-container:hover   {
+.sun:hover,.moon:hover:after,.moon:hover, .mode-container:hover   {
     color:#fb811e;
+}
+.fa-bars{
+    color: #fff;
 }
 
 .moon {
@@ -297,7 +301,7 @@ a.navbar-brand:hover {
     height: 20px;
     border: 2px solid;
     border-bottom: 2px solid transparent;
-    color: #ffffff;
+    color: #fff;
 }
 
 .moon::after {
@@ -312,8 +316,11 @@ a.navbar-brand:hover {
     display: block;
     box-sizing: border-box;
     border-radius: 50%;
-    color: #ffffff;
+    color: #fff;
 }
+/* .moon::after:hover{
+    color: #fb811e;
+} */
 
 .sun{
     /* display: block;
